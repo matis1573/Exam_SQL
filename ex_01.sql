@@ -26,7 +26,8 @@ SELECT * FROM users
 WHERE city = 'paris'
 
 14. Afficher les utilisateurs dont le nom ou le prénom contient « Mar ».
-
+SELECT * FROM user 
+WHERE name LIKE 'Mar%' ;
 
 15. Afficher les utilisateurs qui habitent à Marseille ou à Lille et qui ont entre 18 et 30 ans.
 
