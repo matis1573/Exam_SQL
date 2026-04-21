@@ -1,6 +1,8 @@
 17. Afficher toutes les commandes.
 
-SELECT order FROM users
+SELECT * FROM client
+UNION
+SELECT * FROM orders
 
 18. Afficher les commandes dont le montant est supérieur à 100 €.
 
