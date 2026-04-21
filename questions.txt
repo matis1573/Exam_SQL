@@ -1,0 +1,44 @@
+1. Comment afficher toutes les informations d'une table ? (syntaxe complète)
+- show tables from
+- database_name;
+
+
+2. Quelle commande permet de sélectionner la base de données à utiliser ?
+- SELECT nom_du_champ FROM nom_du_tableau
+
+
+3. Expliquez la différence entre SELECT * et SELECT colonne.
+- SELECT * selectionne toute les colonne alors que SELECT colonne selectionne une colonne en particuliere 
+
+
+4. Quel mot-clé permet d'éliminer les doublons dans les résultats ? Donnez un exemple.
+- le mot -clé qui permet de filtrer les doublons est DISTINCT par exemple :
+
+- SELECT DISTINCT ma_colonne
+- FROM nom_du_tableau
+
+- Cette requête sélectionne le champ “ma_colonne” de la table “nom_du_tableau” en évitant de retourner des doublons
+
+
+5. Quel mot-clé permet de filtrer les résultats ?
+- le mot-clé qui permet de filtrer les résultats est ORDER BY
+
+
+6. Comment rechercher une valeur partielle dans une colonne ? Donnez un exemple.
+- pour chercher une valeur partielle dans une colonne il faut utuliser SUBSTRING() exemple :
+
+- SELECT SUBSTR(nom_colonne, 3, 10)
+- FROM tableu
+
+
+7. Quelle est la différence entre AND et OR ?
+- AND veut dire par exemple Nom ET prenom alors que OR veut dire par exemple Nom OU prenom
+
+
+8. Quelle fonction permet de compter le nombre de lignes ?
+- la fonction qui permet de compter le nomre de lignes est : COUNT()
+- exemple : SELECT COUNT(*) FROM table
+
+
+9. Quelle est la différence entre DROP et DELETE ?
+- permet de supprimer des lignes dans une table et DROP permet de supprimer totalement une base de données et tout ce qu’elle contient 
