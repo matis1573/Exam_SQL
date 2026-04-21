@@ -1,3 +1,12 @@
+CREATE TABLE users {
+    id
+    name
+    firstname
+    age
+    city
+}
+
+
 10. Afficher tous les utilisateurs.
 
 SELECT * FROM users
